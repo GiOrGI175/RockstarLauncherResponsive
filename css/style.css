@@ -19,37 +19,8 @@
 /* body display-gap start*/
 
 body {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: auto 1440px auto;
-  grid-template-rows: repeat(6, auto);
   background-color: #101010;
   font-family: Helvetica-Now-Display;
-}
-
-.grid-box1 {
-  grid-column: 1 / 4;
-  grid-row: 1;
-}
-.grid-box2 {
-  grid-column: 2 / 3;
-  grid-row: 2;
-}
-.grid-box3 {
-  grid-column: 2 / 3;
-  grid-row: 3;
-}
-.grid-box4 {
-  grid-column: 2 / 3;
-  grid-row: 4;
-}
-.grid-box5 {
-  grid-column: 2 / 3;
-  grid-row: 5;
-}
-.grid-box6 {
-  grid-column: 1 / 4;
-  grid-row: 6;
 }
 
 /* body display-gap end*/
@@ -167,17 +138,29 @@ header .header-box .box-for-btnSearchAndPerson .person {
 
 /*header end*/
 
+.baner-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .banner {
   max-width: 1440px;
   height: 796px;
+  display: flex;
+  justify-content: center;
 }
 
 .banner img {
-  max-width: 1440px;
-  height: 796px;
+  width: 100%;
 }
 
 /*main start*/
+
+main {
+  display: flex;
+  justify-content: center;
+}
 
 main .main-box {
   max-width: 1160px;
@@ -269,6 +252,12 @@ main .main-box button:hover {
 /*main end*/
 
 /* section2 start*/
+
+.section-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .info-box {
   max-width: 1160px;
@@ -464,6 +453,12 @@ main .main-box button:hover {
 /* section2 end*/
 
 /* games launcher start */
+
+.section-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .games-Launcher {
   max-width: 1160px;
