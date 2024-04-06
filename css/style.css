@@ -732,15 +732,13 @@ footer .footer-box span {
   .games-Launcher {
     width: 900px;
     height: 1000px;
-    background-image: url("../img/fundo.svg");
-    background-repeat: repeat;
-    background-blend-mode: overlay;
     flex-direction: column;
   }
 
   .section-3 {
     width: 900px;
     display: flex;
+    flex-direction: column;
     justify-content: none;
   }
 
