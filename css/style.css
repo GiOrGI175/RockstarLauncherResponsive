@@ -730,20 +730,51 @@ footer .footer-box span {
   }
 
   .games-Launcher {
-    width: 900px;
-    height: 1000px;
+    max-width: 900px;
+    height: 535px;
+    margin-top: 80px;
+    background-image: url("../img/fundo.svg");
+    background-repeat: no-repeat;
+    display: flex;
+  }
+
+  .game-launcher-content {
+    display: flex;
     flex-direction: column;
   }
 
-  .section-3 {
-    width: 900px;
+  .logo-content {
     display: flex;
-    flex-direction: column;
-    justify-content: none;
+    margin: 77px 0px 32px 76px;
+  }
+
+  .logo-content h4 {
+    width: 11.688rem;
+    height: 7.688rem;
+    padding: 18px;
+  }
+
+  .game-launcher-content span {
+    width: 20.375rem;
+    height: 6rem;
+    margin-left: 4.75rem;
+  }
+
+  .game-launcher-content button {
+    width: 16.25rem;
+    height: 3.938rem;
+    border-radius: 8px;
+    margin: 64px 0px 0px 76px;
   }
 
   .img-box4 {
     margin-left: 98px;
     margin-top: 32px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+  }
+  .img-box4 img {
+    width: 400px;
   }
 }
